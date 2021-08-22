@@ -20,6 +20,9 @@ of positive impact of the change vs the time to adapt to the changes.
 
 [1]: https://en.wikipedia.org/wiki/Letter_frequency
 
+See how PKL positions the keys and their frequencies:
+![PKL Letter Frequencies](https://github.com/pat-laugh/power-keyboard-layout/blob/master/pkl.png)
+
 ## Concept
 
 To change a new layout or change an existing one, in Linux and Mac, you can modify an XML file.
