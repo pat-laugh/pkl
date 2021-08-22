@@ -2,7 +2,7 @@
 
 Keyboard layout different than QWERTY, possibly with better key placements. Note
 that he name of the layout is "Power" for no particular reason. An acronym to
-refere to it is "PKL".
+refer to it is "PKL".
 
 To train your skills, you can use the CLI tool [Keyboard
 Warrior](https://github.com/pat-laugh/keyboard-warrior)!
