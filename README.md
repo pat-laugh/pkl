@@ -14,7 +14,7 @@ are apparently not placed ideally. Some letters are used more frequently than ot
 in English, the frequencies of the letters 'E' and 'Z' are 12.702% and 0.074%<sup>[1]</sup>.
 Many keyboard layouts, such as Dvorak and Colemak have been made to address that. What I do
 not like about these is that the location of so many keys are changed from their location
-in QWERTY that it is very burdensome to learn these layouts. The goal of the Power Layout Keyboard
+in QWERTY that it is very burdensome to learn these layouts. The goal of the Power keyboard layout
 is to change *some* important letters, but as few as possible, in order to have a strong ratio
 of positive impact of the change vs the time to adapt to the changes.
 
@@ -30,14 +30,22 @@ In Windows 7, you have to use a tool provided my Microsoft. For the moment, this
 will concentrate on Linux and Mac.
 
 Only 6 keys change location: E, T, U, F, J and K. The following list shows where a letter
-will go using the destination as the position of a letter in the QWERTY layout:
+will go using the destination as the position of a letter in the QWERTY layout.
+To change your keyboard, you can first remove the E key, then move the following
+keys in order (where they'd be in a QWERTY layout):
 
-- E &rarr; J
-- T &rarr; F
-- U &rarr; K
 - F &rarr; E
-- J &rarr; U
+- T &rarr; F
 - K &rarr; T
+- U &rarr; K
+- J &rarr; U
+- E &rarr; J
+
+Note that your keyboard might have ridges or shapes in the keys that prevent
+them from being moved adequately. If so, you can try removing/modifying the
+ridges/shapes. Otherwise, it's better to keep the keys in their original
+positions; then, you'll just have to remember what the keys actually stand for
+(not much of a problem if you already can touch type).
 
 The layout also advocates for a new position of the right hand. Instead of
 holding the fingers at the "Home Row" (on "JKL;"/"EUL;" in QWERTY/PKL setups),
