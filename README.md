@@ -1,7 +1,7 @@
 # Power keyboard layout
 
 Keyboard layout different than QWERTY, possibly with better key placements. Note
-that he name of the layout is "Power" for no particular reason. An acronym to
+that the layout's name is "Power" for no particular reason. An acronym to
 refer to it is "PKL".
 
 To train your skills, you can use the CLI tool [Keyboard
@@ -23,9 +23,16 @@ of positive impact of the change vs the time to adapt to the changes.
 See how PKL positions the keys and their frequencies:
 ![PKL Letter Frequencies](https://github.com/pat-laugh/power-keyboard-layout/blob/master/pkl.png)
 
+The layout also advocates for a new position of the right hand. Instead of
+holding the fingers at the "Home Row" (on "JKL;"/"EUL;" in QWERTY/PKL setups),
+you put them in a kind of circle such that the right thumb presses on the N key,
+so you have 5 fingers on letters instead of having the thumb on the space bar:
+"NJIOP"/"NEIOP" in QWERTY/PKL setups.
+
 ## Concept
 
-To change a new layout or change an existing one, in Linux and Mac, you can modify an XML file.
+To change a new layout or change an existing one, in Linux and Mac, you can
+modify text files.
 In Windows 7, you have to use a tool provided my Microsoft. For the moment, this repository
 will concentrate on Linux and Mac.
 
@@ -46,12 +53,6 @@ them from being moved adequately. If so, you can try removing/modifying the
 ridges/shapes. Otherwise, it's better to keep the keys in their original
 positions; then, you'll just have to remember what the keys actually stand for
 (not much of a problem if you already can touch type).
-
-The layout also advocates for a new position of the right hand. Instead of
-holding the fingers at the "Home Row" (on "JKL;"/"EUL;" in QWERTY/PKL setups),
-you put them in a kind of circle such that the right thumb presses on the N key,
-so you have 5 fingers on letters instead of having the thumb on the space bar:
-"NJIOP"/"NEIOP" in QWERTY/PKL setups.
 
 Furthermore, on Linux, the left Alt key is changed so it moves the keys on the
 right of they keyboard 3 keys to the left. This allows to reach keys at the
