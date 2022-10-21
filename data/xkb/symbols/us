@@ -1,0 +1,69 @@
+
+// Power Keyboard Layout
+// https://github.com/pat-laugh/pkl
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "pkl" {
+
+    name[Group1]= "English (PKL)";
+
+    key <TLDE> {	[     grave,	asciitilde,	grave,	asciitilde ]	};
+    key <AE01> {	[	  1,	exclam, Home, Home		]	};
+    key <AE02> {	[	  2,	at, Page_Up, Page_Up		]	};
+    key <AE03> {	[	  3,	numbersign, Page_Down, Page_Down ]	};
+    key <AE04> {	[	  4,	dollar, End, End		]	};
+    key <AE05> {	[	  5,	percent, 5,	percent		]	};
+    key <AE06> {	[	  6,	asciicircum, 6,	asciicircum	]	};
+    key <AE07> {	[	  7,	ampersand, 7,	ampersand	]	};
+    key <AE08> {	[	  8,	asterisk, 8,	asterisk	]	};
+    key <AE09> {	[	  9,	parenleft, minus,	underscore	]	};
+    key <AE10> {	[	  0,	parenright, equal,	plus	]	};
+    key <AE11> {	[     minus,	underscore, BackSpace, BackSpace	]	};
+    key <AE12> {	[     equal,	plus, equal,	plus		]	};
+
+    key <AD01> {	[	  q,	Q, dead_grave, dead_acute 		]	};
+    key <AD02> {	[	  w,	W, Left,	Left,		]	};
+    key <AD03> {	[	  f,	F, Right,	Right,	]	};
+    key <AD04> {	[	  r,	R, dead_circumflex, dead_diaeresis		]	};
+    key <AD05> {	[	  k,	K, 5,	percent		]	};
+    key <AD06> {	[	  y,	Y, 6,	asciicircum	]	};
+    key <AD07> {	[	  j,	J, 7,	ampersand		]	};
+    key <AD08> {	[	  i,	I, bracketleft,	braceleft	]	};
+    key <AD09> {	[	  o,	O, bracketright,	braceright	]	};
+    key <AD10> {	[	  p,	P, backslash,         bar		]	};
+    key <AD11> {	[ bracketleft,	braceleft, BackSpace, BackSpace	]	};
+    key <AD12> {	[ bracketright,	braceright, bracketright,	braceright	]	};
+    key <BKSL> {	[ backslash,         bar, backslash,         bar	]	};
+
+    key <AC01> {	[	  a,	A,	agrave,	Agrave  ]	};
+    key <AC02> {	[	  s,	S, Up,	Up 	]	};
+    key <AC03> {	[	  d,	D,	Down,	Down  ]	};
+    key <AC04> {	[	  t,	T,	eacute,	Eacute  ]	};
+    key <AC05> {	[	  g,	G, Home, Home		]	};
+    key <AC06> {	[	  h,	H, End, End		]	};
+    key <AC07> {	[	  e,	E,	semicolon,	colon	]	};
+    key <AC08> {	[	  u,	U,	apostrophe,	quotedbl ]	};
+    key <AC09> {	[	  l,	L,	Return,	Return ]	};
+    key <AC10> {	[ semicolon,	colon, Tab,	Tab		]	};
+    key <AC11> {	[ apostrophe,	quotedbl, apostrophe,	quotedbl	]	};
+
+    key <AB01> {	[	  z,	Z, Insert, Insert 		]	};
+    key <AB02> {	[	  x,	X, Delete, Delete		]	};
+    key <AB03> {	[	  c,	C, Escape, Escape 		]	};
+    key <AB04> {	[	  v,	V,	grave,	asciitilde	]	};
+    key <AB05> {	[	  b,	B,	ccedilla, Ccedilla ]	};
+    key <AB06> {	[	  n,	N,	comma,	less ]	};
+    key <AB07> {	[	  m,	M,	period,	greater ]	};
+    key <AB08> {	[     comma,	less, slash,	question ]	};
+    key <AB09> {	[    period,	greater, period,	greater		]	};
+    key <AB10> {	[     slash,	question, slash,	question	]	};
+
+    key <SPCE> { [        space,        space,           underscore,     nobreakspace ] };
+
+    replace key <LCTL> { [ Alt_L,       Alt_L, Alt_L,       Alt_L       ] };
+	modifier_map Alt { <LCTL> };
+    replace key <MENU> { [ Shift_R,       Shift_R, Shift_R,       Shift_R       ] };
+	modifier_map Shift { <MENU> };
+
+	include "level3(lalt_switch)"
+};
