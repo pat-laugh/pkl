@@ -53,16 +53,20 @@ ridges/shapes. Otherwise, it's better to keep the keys in their original
 positions; then, you'll just have to remember what the keys actually stand for
 (not much of a problem if you already can touch type).
 
-Furthermore, on Linux, the left Alt key is changed so it moves the keys on the
-right of they keyboard 3 keys to the left. This allows to reach keys at the
-right of the right hand without moving the fingers extensively. For instance,
-instead of moving a finger to press on the Enter/Return key, you can hold on
-the left Alt with your thumb, and then press on the L key (which now registers
-as Enter/Return).
+### Other improvements in Linux
 
-Also, on Linux, a slight detail, but I've overriden the MENU key (on the right
-between the Power/Windows and Control keys) to map to accents and other
-characters when holding it and pressing on the A, S, D, T, and C keys.
+The left Alt key is changed so keys at the right of the right hand are moved
+underneath it, allowing to reach them with less movement. For instance, to press
+on the Enter/Return key, instead of extending a finger, you can hold on the left
+Alt, and then press on the L key (which would now register as Enter/Return).
+
+Furthermore, the left Alt is moved to the far left of the keyboard (replacing
+the Ctrl key), and the Menu key is replaced with a Shift key. This allows a
+technique where these meta keys can be selected using the palm of the hands.
+
+The Alt key is also configured to give access to many other useful keys. See the
+new positions of the meta keys, along with the Alt-key layout:
+![PKL Alt keys and meta keys](alt-keys.png)
 
 ## Implementation
 
