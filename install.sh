@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-/usr/bin/env bash <(./generate_install.py)
+mkdir -p .install_files
+./generate_install.py >.install_files/run.sh
+. .install_files/run.sh
