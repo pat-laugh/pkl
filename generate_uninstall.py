@@ -38,7 +38,7 @@ def process_file(d_name, f_name):
         ' '.join([
             'cat',
             '<(head -n %i %s)' % (i_xkb, xkb_path),
-            '<(tail -n -%i %s)' % (i_xkb + num_lines_input, xkb_path),
+            '<(tail -n +%i %s)' % (i_xkb + num_lines_input, xkb_path),
             '>%s' % (temp_file),
         ]),
         'sudo cp %s %s' % (temp_file, xkb_path),
