@@ -22,8 +22,8 @@ xkb_symbols "pkl" {
     key <AE12> {	[     equal,	plus, equal,	plus		]	};
 
     key <AD01> {	[	  q,	Q, dead_grave, dead_acute 		]	};
-    key <AD02> {	[	  w,	W, Left,	Left,		]	};
-    key <AD03> {	[	  f,	F, Right,	Right,	]	};
+    key <AD02> {	[	  w,	W, Left,	Left		]	};
+    key <AD03> {	[	  f,	F, Right,	Right	]	};
     key <AD04> {	[	  r,	R, dead_circumflex, dead_diaeresis		]	};
     key <AD05> {	[	  k,	K, 5,	percent		]	};
     key <AD06> {	[	  y,	Y, 6,	asciicircum	]	};
@@ -61,9 +61,8 @@ xkb_symbols "pkl" {
     key <SPCE> { [        space,        space,           underscore,     nobreakspace ] };
 
     replace key <LCTL> { [ Alt_L,       Alt_L, Alt_L,       Alt_L       ] };
-	modifier_map Alt { <LCTL> };
     replace key <MENU> { [ Shift_R,       Shift_R, Shift_R,       Shift_R       ] };
-	modifier_map Shift { <MENU> };
+    modifier_map Shift { <MENU> };
 
-	include "level3(lalt_switch)"
+    include "level3(lctl_switch)"
 };
