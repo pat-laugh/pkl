@@ -15,10 +15,10 @@ xkb_symbols "pkl" {
     key <AE05> {	[	  5,	percent, 5,	percent		]	};
     key <AE06> {	[	  6,	asciicircum, 6,	asciicircum	]	};
     key <AE07> {	[	  7,	ampersand, 7,	ampersand	]	};
-    key <AE08> {	[	  8,	asterisk, 8,	asterisk	]	};
-    key <AE09> {	[	  9,	parenleft, minus,	underscore	]	};
-    key <AE10> {	[	  0,	parenright, equal,	plus	]	};
-    key <AE11> {	[     minus,	underscore, BackSpace, BackSpace	]	};
+    key <AE08> {	[	  8,	asterisk, minus,	underscore	]	};
+    key <AE09> {	[	  9,	parenleft, equal,	plus	]	};
+    key <AE10> {	[	  0,	parenright, BackSpace, BackSpace	]	};
+    key <AE11> {	[     minus,	underscore, minus,	underscore	]	};
     key <AE12> {	[     equal,	plus, equal,	plus		]	};
 
     key <AD01> {	[	  q,	Q, dead_grave, dead_acute 		]	};
@@ -44,17 +44,17 @@ xkb_symbols "pkl" {
     key <AC07> {	[	  e,	E,	semicolon,	colon	]	};
     key <AC08> {	[	  u,	U,	apostrophe,	quotedbl ]	};
     key <AC09> {	[	  l,	L,	Return,	Return ]	};
-    key <AC10> {	[ semicolon,	colon, Tab,	Tab		]	};
+    key <AC10> {	[ semicolon,	colon,	ccedilla, Ccedilla		]	};
     key <AC11> {	[ apostrophe,	quotedbl, apostrophe,	quotedbl	]	};
 
     key <AB01> {	[	  z,	Z, Insert, Insert 		]	};
     key <AB02> {	[	  x,	X, Delete, Delete		]	};
     key <AB03> {	[	  c,	C, Escape, Escape 		]	};
     key <AB04> {	[	  v,	V,	grave,	asciitilde	]	};
-    key <AB05> {	[	  b,	B,	ccedilla, Ccedilla ]	};
-    key <AB06> {	[	  n,	N,	comma,	less ]	};
-    key <AB07> {	[	  m,	M,	period,	greater ]	};
-    key <AB08> {	[     comma,	less, slash,	question ]	};
+    key <AB05> {	[	  b,	B,	comma,	less ]	};
+    key <AB06> {	[	  n,	N,	period,	greater ]	};
+    key <AB07> {	[	  m,	M,	slash,	question ]	};
+    key <AB08> {	[     comma,	less, comma,	less ]	};
     key <AB09> {	[    period,	greater, period,	greater		]	};
     key <AB10> {	[     slash,	question, slash,	question	]	};
 
