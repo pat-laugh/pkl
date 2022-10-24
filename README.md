@@ -80,23 +80,20 @@ and you'll have to log into recovery mode, which can be annoying.
 
 #### Installation
 
-The file `install.sh` partly automates the installation.
+The file `install.sh` automates the installation. It calls
+`generate_install.py`, which generates the installation steps, and then it
+executes the steps. The direction `data` contains the content added to each
+respective file in `/usr/share/X11/xkb/`.
 
-I've not yet thoroughly understood the system that allows different keyboard
-formats, so for now some files have to be overwritten.
+After the files are updated, the changes need be registered. This can possibly
+be done by unplugging your keyboard and back in. Otherwise, you can log out and
+back in.
 
-Download the files in `./keyboard-layout-files/` onto your computer. Two of
-those are backup files. It's probably best to copy your current files directly
-from `/usr/share/X11/xkb/symbols/` as backups. Copy the files `us` and `level5`.
+Finally, change the keyboard layout. In Debian, you can go to: Settings ->
+Region & Language. The layout should appear under English, as "English (PKL)".
 
-Next, copy the PKL files:
-```
-sudo cp pkl-us /usr/share/X11/xkb/symbols/us
-sudo cp pkl-level5 /usr/share/X11/xkb/symbols/level5
-```
-
-After that, the changes need be registered. This can possibly be done by
-unplugging your keyboard and back in. Otherwise, you can log out and back in.
+The Menu key being used as a meta key might not work as expected (keeping its
+right-click default behavior). One solution is to have PKL as the sole layout.
 
 #### If your system won't start as usual
 
